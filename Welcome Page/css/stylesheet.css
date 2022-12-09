@@ -1,0 +1,119 @@
+
+html, body {
+  max-width: 100%;
+  max-height:100%;
+  overflow-x: hidden;
+  border: 1px solid rgb(217, 118, 24,);
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  position: relative;
+  z-index: 2;
+  top: -100px;
+}
+
+
+.content{
+  position: relative;
+  z-index: 3;
+  width: 75 .33%;
+  top: 5px;
+}
+
+
+
+.welcome{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  position: relative;
+  z-index: 1;
+  top: -330px;
+  left: 0px;
+}
+.box2{
+  background-color: rgb(135, 199, 222, 0.4);
+  padding: 10px;
+  position: relative;
+  width: 43.33%;
+  top: -340px;
+  z-index: 2;
+}
+.imagecontainer{
+  float: right;
+  position: relative;
+  object-fit:contain;
+  z-index: 1;
+  top: -920px;
+  left: 10px
+  
+}
+.ribbon{
+  float: right;
+  position: absolute;
+  z-index: 7;
+  top: 140px;
+  left: 400px;
+
+}
+.ribbon2{
+  float: left;
+  position: absolute;
+  z-index: 4;
+  bottom: -580px;
+  right: 900px;
+
+}
+
+.button{  
+  background-color: coral;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  margin: 4px 2px;
+  z-index: 5;
+  top: 900px;
+  left: 1020px;
+  padding: 15px 32px;
+  font-size: 16px;
+  cursor: pointer;
+  margin:4px;
+  border-radius: 12px;
+  width: 200px;
+}
+.explore{
+  position: absolute;
+  z-index: 5;
+  top: 850px;
+  left: 950px;
+  border: none;
+  background-color: inherit;;
+}
+body{
+  background-image: url("../images/3.png");
+        background-repeat: repeat;
+        background-size: 600px 400px;
+        
+}
+.backgroundimage{
+  position: relative;
+  z-index: 1;
+  width: 43.33%;
+  top: -1100px;
+  opacity: .2;
+  right: 200px;
+}
+.background{
+  background-color: rgb(252, 186, 3, 0.4);
+  position: relative;
+  z-index: 3;
+  width: 43.33%;
+  top: -350px;
+  padding: 10px;
+}
